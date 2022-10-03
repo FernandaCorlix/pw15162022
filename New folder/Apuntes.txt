@@ -1,0 +1,11 @@
+margin ---> Arriba, derecha, abajo, izquierda 
+Es espaciado entre un margen
+
+
+padding ---> Es espaciado interno entre elementos
+arriba/abajo   izquierda/derecha
+
+
+Con el acuten se puede poner lo que son los acentos
+
+	
