@@ -1,0 +1,9 @@
+Cuando se realice un cambio en los archivos de la carpeta:
+
+
+	
+git add -A
+	
+git commit -m "Texto descriptivo de lo que hicimos en los archivos de la carpeta"
+	
+git push -u origin main o en caso de no funcionar git push -u origin master
