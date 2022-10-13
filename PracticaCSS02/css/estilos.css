@@ -75,8 +75,15 @@ width: 30%;
 #seccion03art04{
   /*border: 1px solid red;*/  
     margin-top: 40px;
-    
+
 }
+
+#seccion03art04 input[type='button']{
+    border-radius: 3px;
+   background-color: rgb(29, 227, 29);
+   color: white;
+}
+
 
 #segundaSeccion article{
     margin-right: 190px;
