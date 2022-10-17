@@ -10,20 +10,24 @@
 
 <body>
     <header>
-        <img src="img/logo.jpg" alt="">
-        <img src="img/thema.png" alt="tema">
-        <img src="img/red1.png" alt="">
-        <img src="img/red2.png" alt="">
-        <img src="img/red3.png" alt="">
+        <img id="logo" src="img/logo.jpg" alt="">
+        <img id="thema" src="img/thema.png" alt="tema">
+        
+        <img id="red1" src="img/red1.png" alt="">
+      <img id="red2" src="img/red2.png" alt="">
+        <img id="red3" src="img/red3.png" alt="">  
         <nav>
-            <ul>
-                <li>INICIO</li>
-                <li>TUTORIALES</li>
-                <li>VIDEOS</li>
-                <li>JAVASCRIPT</li>
-                <li>HTML Y CSS3</li>
-                <li>RECURSOS</li>
-                <li>ADMINISTRADOR</li>
+            <ul> 
+                <span class="nito">
+                <li> INICIO </li>
+                <li> TUTORIALES</li>
+                <li> VIDEOS</li>
+                <li> JAVASCRIPT</li>
+                <li> HTML Y CSS3</li>
+                <li> RECURSOS</li>
+                <li> ADMINISTRADOR</li>
+            </span>
+                
             </ul>
         </nav>
     </header>
@@ -31,51 +35,60 @@
 
     <section id="seccion01">
         <article>
-            <img src="img/slider.jpg" alt="limones">
+          <img src="img/slider.jpg" alt="limones">
         </article>
     </section>
 
     <section id="seccion02">
         <article>
-            <span class="Secciondos nito">Titulo del Post</span> 
-            <br>
-            <img src="img/img-post.jpg" alt="">
-            <br>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla reiciendis ipsa officia ex molestiae eius commodi cupiditate modi, labore esse rerum praesentium possimus dolorem tenetur nemo non illum sequi dolorum.
-            <p></p>
-            <br><input type="submit" value="Leer mas">
+            <nav> <ul>
+               <span class="letramediana nito">
+                Publicidad   
+               </span>
+            </ul>
+        </nav>
+        <img src="img/imagenrara.jpg" alt="" id="publicidad1">
+        <img src="img/imagenrara.jpg" alt="">
+        <br>
+        <img src="img/imagenrara.jpg" alt="" id="publicidad3">
+        <img src="img/imagenrara.jpg" alt="">
         </article>
     </section>
 
     <section id="seccion03">
-    <article>
-        <nav>
-            <ul>Publicidad</ul>
-        </nav>
-       <img src="img/imagenrara.jpg" alt=""> 
-       <img src="img/imagenrara.jpg" alt=""> 
-       <img src="img/imagenrara.jpg" alt=""> 
-       <img src="img/imagenrara.jpg" alt=""> 
-    </article>
-    </section>
-
-    <section id="seccion04">
         <article>
             <nav>
-                <ul>Buscador</ul>
-
-                <form action="#">
-                    <input type="text" placeholder="Search">
-                    <input type="submit" value="Go">
-                </form>
+                <ul>
+                   <span class="letramediana nito">
+                    Buscador
+                   </span>
+                </ul>
+            </nav>
+            <nav>
+                <input type="text" value="Search..." >
+                <input type="boton" value="Go">
             </nav>
         </article>
     </section>
 
-    <Section>
+    <Section id="seccion04">
         <article>
+            <nav>
+                <ul>
+                    <span class="letramediana nito">
+                        Categorias
+                    </span>
+                </ul>
+            </nav>
+            
+        </article>
+    </Section>
+
+    <Section id="seccion05">
+        <article>
+            <nav>
             <ul>
-                <li>categoria 1</li>
+                <li id="cat1">categoria 1</li>
                 <li>categoria 2</li>
                 <li>categoria 3</li>
                 <li>categoria 4</li>
@@ -83,7 +96,28 @@
                 <li>categoria 6</li>
                 <li>categoria 7</li>
             </ul>
+        </nav>
         </article>
     </Section>
+
+    <section id="seccion06">
+        <article id="secc06art01">
+            <nav>
+                <ul>
+                    <span class="colorgris letragrande nito">
+                        Titulo del Post
+                    </span>
+                </ul>
+            </nav>
+            <img src="/img/img-post.jpg" alt="">
+            <div id="secc06div02">
+                <nav >
+                    Por admin EL 30/05/2012. En pruebas
+                </nav>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eius ut? Est debitis, molestias nobis vel alias quaerat dicta odit veniam sunt corporis possimus totam voluptate a nesciunt nulla ea.
+                <br>
+                <input type="submit" value="Leer mas">
+              </div>
+            </article>
 </body>
 </html>
