@@ -1,0 +1,96 @@
+body{
+    font-size: 16px ;
+    margin: 0px auto;
+    /* Recomendacion del cliente */
+    max-width: 1078px;
+    min-width: 1078px;
+}
+
+header{
+
+text-align: center;
+background-color: #245d92;
+}
+
+header nav{
+    text-align: right;
+    background-color: #efefef;
+    width: 100%;
+}
+
+#art01seccion01{
+    margin-left: 10px;
+    margin-top: 1px;
+    width: 21%;
+    background-color: #1e4973;
+}
+
+#noti{
+    padding-top: -30px;
+
+    width: 8%;
+}
+
+#mens{
+width: 5%;
+}
+#ajustes{
+    width: 5%;
+}
+
+#art01seccion01 ul{
+    list-style: none;
+    color: white;
+    margin-top: -5px;
+    margin-left: -30px;
+}
+
+#art01seccion01 ul li:before{
+    content: "</>";
+    color: white;
+}
+
+#art01seccion02{
+    margin-left: 10px;
+    margin-top: 1px;
+    width: 21%;
+    color: white;
+    background-color:#245d92;
+    font-size: 1.2em;
+}
+
+#art02seccion02 div {
+    width: 21%;
+  margin-left: 15px;
+
+}
+
+#barra1{
+    width: 100%;
+    margin-left: -4px;
+}
+
+#barra2{
+    width: 100%;
+    margin-left: -4px;
+}
+
+#barra3{
+    width: 100%;
+    margin-left: -4px;
+}
+
+#barra4{
+    width: 100%;
+    margin-left: -4px;
+}
+
+#seccion03{
+  
+}
+
+#art01seccion03{
+
+margin-left: 220px;
+margin-top: -50px;
+}
