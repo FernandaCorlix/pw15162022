@@ -58,6 +58,10 @@ width: 226px;
 margin-top: 30px;
 }
 
+#sec01art02 img{
+    width: 10%;
+}
+
 #sec01art03{
     width: 226px;
     margin-top: -13px;
@@ -280,3 +284,6 @@ font-size: 1.2em;
 
 
 
+#panelwith{
+    vertical-align: middle;
+}
