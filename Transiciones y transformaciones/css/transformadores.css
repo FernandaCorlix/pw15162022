@@ -1,0 +1,55 @@
+article{
+    background-color: greenyellow;
+    border: 2px solid black;
+    color: black;
+    margin: 20px 5px;
+    pad: 15px;
+    width: 400px;
+    transition: all 5s linear;
+    -moz-transition: all 5s linear;
+    -ms-transition: all 5s linear;
+    -o-transition: all 5s linear;
+    -webkit-transition: all 5s linear;
+    text-align: center;
+}
+
+article p{
+font: 30px Tahoma;
+font-weight: bold;
+widows: 100px;
+
+}
+
+/*Para que al momento de poner el raton se expanda
+
+article:hover{
+    height: 400px;
+    widows: 800px;
+}
+
+*/
+
+/* Para que al momento de ponerle el raton se mueva 
+article:hover{
+    background-color: black;
+    color: greenyellow;
+    transform: translate(150px,300px);
+    -moz-transform: translate(150px,300px);
+    -ms-transform: translate(150px,300px);
+    -o-transform: translate(150px,300px);
+    -webkit-transform: translate(150px,300px);
+}
+
+*/
+
+/*Para rotarlo
+article:hover{
+    background-color: black;
+    color: greenyellow;
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+*/
+
