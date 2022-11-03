@@ -1,0 +1,14 @@
+HTML + CSS + JAVASCRIPT
+
+DATOS ---> SERVIDOR ---> ACCESO A LOS DATOS
+
+PARA QUE NOS DEN LOS DATOS SE HACE UN -- REQUEST -- ---> SERVIDOR ---> DATOS
+NORMLAMENTE LO REGRESA EN UN -- FORMATO XML, JSON --
+
+JSON = JAVASCRIPT OBJECT NOTATION
+
+----------------------------------------------------------------
+
+CODIGO CON AMI
+
+↑ ↑ ↓ ↓ ← → ← → B A
